@@ -10,9 +10,9 @@ int enableMotorA = 9;  // This is a PWM pin assigned to enable for motor A.
 
 // Motor B pin initialization and connection.  (RIGHT)
 
-int in3 = 13;
-int in4 = 12;
-int enableMotorB = 11;  // This is a PWM pin assigned to enable for motor B.
+int in3 = 2;
+int in4 = 4;
+int enableMotorB = 3;  // This is a PWM pin assigned to enable for motor B.
 
 void setup() {
   Serial.begin(9600);
